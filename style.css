@@ -20,3 +20,17 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Estilos para pantallas grandes (computadoras) */
+@media (min-width: 1024px) {
+    section {
+        width: 100%;
+    }
+}
+
+/* Estilos para pantallas pequeñas (celulares) */
+@media (max-width: 1023px) {
+    section {
+        width: 100%;
+    }
+}
